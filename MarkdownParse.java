@@ -45,7 +45,7 @@ test 4
 https::lookparantheses()
 
 test 5
-[]
+()
 
 more text here
 
