@@ -27,3 +27,32 @@ public class MarkdownParse {
         System.out.println(links);
     }
 }
+
+/*
+* test 1
+*thisisnotalink
+
+[but this is a link!](https://something.com)
+
+test 2
+[a link!](https://something.com
+[another link!](some-page.html)
+
+test 3
+thisisnotalink
+
+test 4
+https::lookparantheses()
+
+test 5
+[]
+
+more text here
+
+test 6
+thisisnotalink
+
+[but this is a link!](https://something.com)
+
+
+*/
