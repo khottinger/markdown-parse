@@ -77,7 +77,7 @@ public class MarkdownParseTest {
         assertEquals("[some-page.html]", linkOne.toString());
     }
     */
-
+    /*
     @Test
     public void testGetLinkFileThree() throws IOException{
         Path fileName = Path.of("test-file3.md");
@@ -85,15 +85,16 @@ public class MarkdownParseTest {
         ArrayList<String> linkOne = getLinks(contents);
         assertEquals("[]", linkOne.toString());
     }
+    
 
-    /*@Test
+    @Test
     public void testGetLinkFileFour() throws IOException{
         Path fileName = Path.of("test-file4.md");
 	    String contents = Files.readString(fileName);
         ArrayList<String> linkOne = getLinks(contents);
         assertEquals("[]", linkOne.toString());
     }
-
+    /*
     @Test
     public void testGetLinkFileFive() throws IOException{
         Path fileName = Path.of("test-file5.md");
@@ -110,6 +111,10 @@ public class MarkdownParseTest {
         assertEquals("[]", linkOne.toString());
     }
 */
+@Test
+    public void subtraction() {
+        assertEquals(10, 1 - 1);
+    }
 
 }
 
