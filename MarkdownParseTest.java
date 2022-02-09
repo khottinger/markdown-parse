@@ -10,10 +10,6 @@ import org.junit.*;
 
 public class MarkdownParseTest {
     
-    @Test
-    public void addition() {
-        assertEquals(2, 1 + 1);
-    }
 
     public static ArrayList<String> getLinks(String markdown) {
         ArrayList<String> toReturn = new ArrayList<>();
@@ -61,12 +57,12 @@ public class MarkdownParseTest {
             return regex.split(str).length > 0;
     }
 
-   /* @Test
+    @Test
     public void testGetLinkFileOne() throws IOException{
         Path fileName = Path.of("test-file1.md");
 	    String contents = Files.readString(fileName);
         ArrayList<String> linkOne = getLinks(contents);
-        assertEquals("[https://something.com, some-page.html]", linkOne.toString());
+        assertEquals("[some-page.html]", linkOne.toString());
     }
 
     @Test
@@ -74,10 +70,10 @@ public class MarkdownParseTest {
         Path fileName = Path.of("test-file2.md");
 	    String contents = Files.readString(fileName);
         ArrayList<String> linkOne = getLinks(contents);
-        assertEquals("[some-page.html]", linkOne.toString());
+        assertEquals("[https://something.com, some-page.html]", linkOne.toString());
     }
-    */
-    /*
+    
+    
     @Test
     public void testGetLinkFileThree() throws IOException{
         Path fileName = Path.of("test-file3.md");
@@ -110,11 +106,7 @@ public class MarkdownParseTest {
         ArrayList<String> linkOne = getLinks(contents);
         assertEquals("[]", linkOne.toString());
     }
-*/
-@Test
-    public void subtraction() {
-        assertEquals(0, 1 - 1);
-    }
+    */
 
 }
 
