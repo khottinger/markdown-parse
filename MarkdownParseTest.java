@@ -113,7 +113,7 @@ public class MarkdownParseTest {
 */
 @Test
     public void subtraction() {
-        assertEquals(10, 1 - 1);
+        assertEquals(0, 1 - 1);
     }
 
 }
